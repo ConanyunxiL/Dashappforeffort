@@ -7,6 +7,7 @@ from dash import html
 from calendar import monthrange
 
 app = dash.Dash()
+server = app.server
 
 app.layout = html.Div(
     [
